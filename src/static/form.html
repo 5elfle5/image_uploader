@@ -1,0 +1,40 @@
+<html>
+<head><title>Upload Test</title></head>
+<body>
+<form target="/" method="post" enctype="multipart/form-data" id="form" >
+    base64 1
+    <input type="text" name="base64" id="text1" /> <br>
+    base64 2
+    <input type="text" name="base64" id="text2" /> <br>
+    url 1
+    <input type="text" name="url" id="url1" /> <br>
+    url 2
+    <input type="text" name="url" id="url2" /> <br>
+    <input type="file" multiple name="files" id="files" /><br>
+    <input type="button" value="submit" onclick="myFunction()" />
+</form>
+</body>
+<script>
+    function myFunction(){
+        var form = document.getElementById('form');
+        var files = document.getElementById('files');
+        var text1 = document.getElementById('text1');
+        var text2 = document.getElementById('text2');
+        var url1 = document.getElementById('url1');
+        var url2 = document.getElementById('url2');
+        let formData = new FormData();
+
+        for (var i = 0; i < files.files.length; i++) {
+            formData.append("files", files.files[i]);
+        }
+        formData.append("url", url1.value);
+        formData.append("url", url2.value);
+        formData.append("base64", text1.value);
+        formData.append("base64", text2.value);
+
+        var request = new XMLHttpRequest();
+        request.open("POST", "");
+        request.send(formData);
+    }
+</script>
+</html>
