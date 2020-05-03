@@ -75,3 +75,9 @@ impl From<image::ImageError> for AppError {
         AppError::CouldNotCreateThumbnail(String::from("Could not create thumbnail"))
     }
 }
+
+impl From<actix_multipart::MultipartError> for AppError {
+    fn from(_: actix_multipart::MultipartError) -> AppError {
+        AppError::IncorrectParameters("Received corrupt file part".to_string())
+    }
+}

@@ -1,7 +1,6 @@
 use actix_web::{middleware, App, HttpServer};
 use actix_web::web::{resource, get, post};
 mod handlers;
-mod image_utils;
 mod file_utils;
 mod errors;
 
