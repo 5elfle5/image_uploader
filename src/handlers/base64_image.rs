@@ -8,3 +8,4 @@ pub async fn get_by_base64(data: Bytes) -> Result<(String, Vec<u8>), AppError> {
     let filename = format!("{}.png", uuid::Uuid::new_v4());
     Ok(ready((filename, image)).await)
 }
++
