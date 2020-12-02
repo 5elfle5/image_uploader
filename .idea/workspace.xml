@@ -15,7 +15,6 @@
   <component name="ChangeListManager">
     <list default="true" id="443f0c9f-9085-43dd-8696-a8be90825700" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-uploader" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/handlers/base64_image.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/base64_image.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +50,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -107,27 +106,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1604551000278">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1604551000278" />
-    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1604551000277">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1604551000277" />
-    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1604551000277">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1604551000277" />
-    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1604551000277">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1604551000277" />
-    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1604999858498">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1604999858497" />
   </component>
 </project>
